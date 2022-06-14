@@ -20,6 +20,14 @@ Usage
  .. image:: ./screenshots/app_running.PNG
     :width: 800
 
+Screenshots
+-----------
+.. image:: ./screenshots/main_screen.PNG
+   :width: 800
+
+.. image:: ./screenshots/working.PNG
+   :width: 800
+
 
 
 
