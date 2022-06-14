@@ -17,7 +17,8 @@ Usage
 5. Download flask: ``pip install flask``
 6. Run ``python3 parser_app.py``
 7. Go to the displayed local host address to access the application 
-.. image:: ./screenshots/app_running.PNG
+ .. image:: ./screenshots/app_running.PNG
+    :width: 400
 
 
 
