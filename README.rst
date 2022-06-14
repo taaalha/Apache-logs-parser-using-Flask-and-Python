@@ -23,11 +23,11 @@ Usage
 Screenshots
 -----------
 .. image:: ./screenshots/main_screen.PNG
-   :width: 500
+   :width: 600
 
 
 .. image:: ./screenshots/working.PNG
-   :width: 500
+   :width: 600
 
 
 
