@@ -25,6 +25,9 @@ Screenshots
 .. image:: ./screenshots/main_screen.PNG
    :width: 600
 
+.. image:: ./screenshots/logs.PNG
+   :width: 600
+
 
 .. image:: ./screenshots/working.PNG
    :width: 600
