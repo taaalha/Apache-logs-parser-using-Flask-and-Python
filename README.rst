@@ -1,4 +1,4 @@
-Apache logs parser: Simple web GUI/UI to extract logs | Made with Flask, Python3
+Apache logs parser: Web GUI/UI to extract logs | Made with Flask, Python3
 ===================================================================
 
 This is a simple application that parses Apache log files through filters, and displays it on a UI. 
@@ -17,6 +17,7 @@ Usage
 5. Download flask: ``pip install flask``
 6. Run ``python3 parser_app.py``
 7. Go to the displayed local host address to access the application 
+.. image:: ./screenshots/app_running.PNG
 
 
 
