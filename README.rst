@@ -18,7 +18,7 @@ Usage
 6. Run ``python3 parser_app.py``
 7. Go to the displayed local host address to access the application 
  .. image:: ./screenshots/app_running.PNG
-    :width: 400
+    :width: 800
 
 
 
