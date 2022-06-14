@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <h1>Apache logs parser</h1>
+
+    <form method='POST' action=' {{ url_for('index') }}' enctype='multipart/form-data' class='mt-5'>
+
+        <div class="mb-3 d-flex justify-content-between">
+            <input class="form-control" type="file" id="formFile" name='log_file' accept=".txt" required>
+                <button
+                    type="submit" name="button" class='btn btn-primary btn-sm'> Submit
+                </button>
+        </div>
+
+    </form>
+
+    <div class="mt-5">
+        {% for item in ips %}
+            <p>{{ item['ip'] }} - {{ item['counts'] }} </p>
+        {% endfor %}
+    </div>
+
+    <div class="mt-5">
+        {% for item in ips %}
+            <p>Deny from {{ item['ip'] }} </p>
+        {% endfor %}
+    </div>
+{% endblock %}
